@@ -1,0 +1,6 @@
+pfsense-traffic.sh v1.0, 2010 by Patrick Stadler <patrick.stadler@gmail.com>
+ 
+Get traffic data for an interface from pfSense using its webGUI 
+
+Usage:	 ./pfsense-traffic.sh <url-to-webgui> <interface> [<interval seconds>]
+Example: ./pfsense-traffic.sh https://192.168.1.1:8080 wan 5
